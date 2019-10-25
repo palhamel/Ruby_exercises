@@ -3,7 +3,7 @@ def scream(words)
     puts words
 end
   
-scream("Yippeee")
+scream("Yippeee Tiramisu")
 
 # Deleted 'return' so now it puts out Yippeee!!!!
 

@@ -6,4 +6,4 @@ def equal_to_four(x)
   end
   
 equal_to_four(5)
-end #Fixed the 'end' that was missing in code
+end # <<<< Fixed the 'end' that was missing in code

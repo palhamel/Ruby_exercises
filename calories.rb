@@ -1,10 +1,10 @@
 
 
-user = "Sammy"
-calories = 100
+user = "Pal"
+calories = 1000
 
 
-print "Congratulations, #{user}! You just burned #{calories} calories during this workout."
+print "Congratulations, #{user}! You just burned #{calories} calories during this Ruby exercise!"
 
 
 # print "Congratulations, " + user + "! You just burned " + calories.to_s + " calories during this workout."

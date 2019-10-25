@@ -10,5 +10,5 @@ puts weight
 
 
 
-# Skillnaden är att .merge! är destruktiv och ändrae hash'en
+# Skillnaden är att .merge! är destruktiv och ändrar hash'en
 
