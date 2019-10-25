@@ -1,3 +1,17 @@
+
+my_group = []
+person_1 = {name: "Olle", gender: 'Male', age: 24}
+person_2 = {name: "Anna", gender: 'Female', age: 22}
+person_3 = {name: "Anders", gender: 'Male', age: 34}
+
+my_group = [person_1, person_2, person_3]
+
+my_group.each do |person|
+
+puts "#{person[:name]} is a #{person[:age]} years old #{person[:gender]}"
+end
+
+
 # my_group = Array.new
 
 # person_1 = {name: "Bernt", gender: male, age: 10}
@@ -13,20 +27,6 @@
   
 # end
   
-
-
-my_group = []
-person_1 = {name: "Olle", gender: 'Male', age: 24}
-person_2 = {name: "Anna", gender: 'Female', age: 22}
-person_3 = {name: "Anders", gender: 'Male', age: 34}
-
-my_group = [person_1, person_2, person_3]
-
-my_group.each do |person|
-
-puts "#{person[:name]} is a #{person[:age]} years old #{person[:gender]}"
-end
-
 
 
 
